@@ -1,8 +1,8 @@
 version: '2.1'
 services:
-  container_verge:
-    image: my/container_verge
-    container_name: container_verge
+  verge:
+    image: tigerseye/docker-xvg:latest
+    container_name: verge
     ports:
       - "20102:20102"
       - "21102:21102"
